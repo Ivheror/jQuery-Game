@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+ <meta charset="UTF-8"><title>Proyecto juego</title>  
+ <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+ 
+ <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/theme.css">
+ 	<link rel="stylesheet" type="text/css" href="css/estilos4.css">
+    
+</head>
+<body>
+	<div id="principal">
+		<div id="tiempo">
+			<img src="img/tiempo.png" alt="">
+		</div>
+		<div class="timer">
+			<p></p>
+		</div>
+		<audio autoplay loop>
+		  <source src="tema.mp3" type="audio/mpeg">
+		  Your browser does not support the audio tag.
+		</audio>
+		<img src="img/wall.png" alt="">
+		<div id="contenedor">
+			<div id="dialog-message" title="Nivel Superado" style="display:none;">
+			  <p>
+			    <span class="ui-icon ui-icon-circle-check" style="float:left; margin:0 7px 50px 0;"></span>
+			    A medida que avanzas los enemigos son más rápidos, ten cuidado!
+			  </p>
+			</div>
+								 
+			<div class="obstaculo" id="ob1">
+				<img src="img/ob1.png" alt="">
+			</div>
+			<div id="enemigo">
+				<img src="img/cortex.gif" alt="">
+			</div>
+			<div id="enemigo2">
+				<img src="img/cortex.gif" alt="">
+			</div>
+			<div id="enemigo3">
+				<img src="img/cortex.gif" alt="">
+			</div>
+			<div id="enemigo4">
+				<img src="img/cortex.gif" alt="">
+			</div>
+		</div>
+		<div id="capa">
+			<img id="pj" src="img/normal.gif" alt="">
+		 </div>
+		<div id="pared">
+		</div>
+		<div id="pared2">
+		</div>
+		<div id="pared3">
+		</div>
+		<div id="pared4">
+		</div>
+		<div id="logo">
+			<img src="img/logo.gif" alt="">
+		</div>
+		<div id="vidas">
+			<img src="img/vida.png" alt="" align="left">
+			<p>4</p>
+		</div>
+		<div id="item">
+			<img src="img/key.gif" alt="" align="left"><p>0</p>
+		</div>
+		<div id="resultado">
+			0
+		</div>
+		<div id="puntos">
+			<h3>Puntuaci&oacuten</h3>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/codigo4.js"></script>
+</body>
+</html>

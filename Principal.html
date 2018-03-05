@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Accordion - Collapse content</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/theme.css">
+
+  <style type="text/css" media="screen">
+  body{
+    background-color: bisque;
+  }
+    #contenedor{
+      width: 90%;
+      height: 500px;
+      background-color: #DD863E;
+      margin-left: 4%;
+      padding: 0;
+    }
+    #intro2{
+      width: 100%;
+      height: 500px;
+      background-color: black;
+    }
+    #intro2 img{
+      width: 100%;
+      height: 90%;
+    }
+    #intro2 #start{
+      margin-left: 42%;
+      cursor:pointer;
+    }
+    
+  </style>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  } );
+  </script>
+</head>
+<body>
+  <audio autobuffer autoplay loop>
+    <source src="intro.mp3">
+  </audio>
+<div id="contenedor">
+  <div id="intro2">
+    <img src="img/intro2.jpg" alt="" id="img1">
+    <button id="start"><img src="img/play.jpg" style="width: 300px;height: 50px;"></button>
+</div>
+
+
+<div id="accordion">
+  <h3>Introduccion</h3>
+  <div>
+    <p>Bienvenido a Crash Bandicoot Daw Edition, para comenzar a jugar , por favor pulse el botón Start, se recomienda siga leyendo para la comprensión total del juego. AVISO: Este juego contiene sonidos y música durante el transcurso del mismo, se recomienda no tener el volumen demasiado alto, gracias por jugar.</p>
+  </div>
+  <h3>Instrucciones</h3>
+  <div>
+    <p>El objetivo del juego es obtener la mayor puntuación posible , avanzando entre los difrentes niveles, cada vez que un enemigo te de un golpe, pierdes una vida, si te quedas sin tiempo , morirás ! Puedes obtener puntos de la siguiente manera:</p>
+    <ol>
+      <li>Matando enemigos (25 ptos)</li>
+      <li>Consiguiendo cristales (150 ptos)</li>
+    </ol>
+  </div>
+  <h3>Como jugar</h3>
+  <div>
+    <p>Usa las flechas de dirección para moverte por el mapa, evita a toda costa el contacto con los enemigos. Puedes pulsar la barra espaciadora para disparar una manzana y así acabar con los enemigos. Cuando acabes con todos los enemigos, podrás recuperar un cristal haciendo doble click, lo que añadirá 150 puntos a tu marcador actual y con ello desbloquearás el siguiente nivel. </p>
+  </div>
+  <h3>Creditos</h3>
+  <div>
+    <p>Juego creado y diseñado por Ivan Hernando Ortega de 2 Daw </p>
+  </div>
+</div>
+ 
+ <script>
+  $(document).ready(function(){
+      $( function() {
+      $( ".widget input[type=submit], .widget a, .widget button" ).button();
+      $( "button, input, a" ).click( function( event ) {
+        window.location.assign("Fase1.html");
+      } );
+    } );
+
+      setTimeout(function(){ 
+        $("#img1").attr("src","img/intro.gif"); 
+      }, 3000);
+
+  });
+  
+
+  </script>
+</body>
+</html>

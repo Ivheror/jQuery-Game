@@ -1,0 +1,252 @@
+ body{
+		background-color: bisque;
+		overflow: hidden;
+    }
+    @font-face {
+		  font-family: Crash;
+		  src: url(../crash-a-like.ttf);
+		  color:white;
+		}
+        #capa{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            margin:5px;
+            top:-100px;
+            left:5px;
+           /* border:1px solid blue; */
+        }
+        #capa img{
+        	width: 100%;
+        	height: 100%;
+        }
+        
+        #pared {
+				width: 4px;
+				height: 500px;
+				/*background-color:blue;*/
+				position:absolute;
+				left: 100px;
+				top:100px;
+				           /* border:1px solid blue; */
+
+		}
+		#pared2 {
+				width: 4px;
+				height: 500px;
+				/*background-color:blue;*/
+				position:absolute;
+				left: 1000px;
+				top:100px;            
+
+		}
+		#pared3 {
+				width: 900px;
+				height: 4px;
+				/*background-color:blue;*/
+				position:absolute;
+				left: 100px;
+				top:100px;           
+
+		}
+		#pared4 {
+				width: 904px;
+				height: 4px;
+				/*background-color:blue;*/
+				position:absolute;
+				left: 100px;
+				top:650px;           
+
+		}
+		#principal{
+			float:left;
+			width: 80em;
+			height: 43em;
+		}
+		#principal img{
+			width: 100%;
+			height: 100%;
+		}
+		#contenedor{
+			position:absolute;
+			width: 900px;
+			height: 550px;
+			border:1px solid red;
+			border-radius: 1%;
+			top:100px;
+			left:100px;
+			background-image: url('../img/stage5.jpg');
+			background-repeat: no-repeat;
+			-webkit-background-size: cover;
+        	-moz-background-size: cover;
+       		background-size: cover;
+       		border:4px solid red;
+		}
+		.obstaculo{
+			position:absolute;
+			width: 5%;
+			height: 5%;
+		}
+		#logo
+		{
+			width: 270px;
+            height: 200px;
+            position: absolute;
+            margin:5px;
+            top:10px;
+            left:1000px;
+            /*border: 1px solid red;*/
+		}
+		#logo img{
+			width: 100%;
+			height: 100%;
+		}
+		.manzana {
+			position: absolute;
+			background: url(../img/wumpa.png);
+			background-size: contain;
+			width: 50px;
+			height: 50px;
+		}
+		#enemigo{
+			width: 10%;
+			height: 18%;
+			margin: 0 auto; 
+			position:absolute ;
+			/*border:1px solid red;*/
+		}
+		#enemigo2{
+			width: 10%;
+			height: 18%;
+			margin: 0 auto; 
+			position:absolute ;
+			/*border:1px solid red;*/
+		}
+		#enemigo3{
+			width: 10%;
+			height: 18%;
+			margin: 0 auto; 
+			position:absolute ;
+			/*border:1px solid red;*/
+		}
+		#enemigo4{
+			width: 10%;
+			height: 18%;
+			margin: 0 auto; 
+			position:absolute ;
+			/*border:1px solid red;*/
+		}
+		#enemigo5{
+			width: 10%;
+			height: 18%;
+			margin: 0 auto; 
+			position:absolute ;
+			/*border:1px solid red;*/
+		}
+		#tiempo{
+			width: 5%;
+			height: 10%;
+			margin: 0 auto; 
+			position:absolute ;
+			left:35%;
+			border-bottom:1px solid black;
+		}
+		#timer img{
+			width: 30%;
+			height: 100%;
+		}
+		.timer{
+			width: 10%;
+			height: 10%;
+			margin: 0 auto; 
+			position:absolute ;
+			left:40%;
+			border-bottom:1px solid black;
+		}
+		.timer{
+			font-size:75px;
+			text-align: center;
+			font-family:Crash;
+  			-webkit-text-stroke: 1px black;
+			color:white;
+		}
+		#vidas{
+			width: 150px;
+            height: 50px;
+            position: absolute;
+            margin:5px;
+            top:45%;
+            left:1100px;
+		}
+		#vidas img{
+			width: 50%;
+			height: 100%;
+		}
+		#vidas > p{
+			font-family:Crash;
+			font-size: 40px;
+			text-align: justify;
+			margin-top: 2%;
+  			-webkit-text-stroke: 1px black;
+  			color:white;
+		}
+		#item{
+			width: 150px;
+            height: 100px;
+            position: absolute;
+            margin:5px;
+            top:55%;
+            left:1100px;
+		}
+		#item img{
+			width: 50%;
+			height: 100%;
+		}
+		#item > p{
+			font-family:Crash;
+			font-size: 40px;
+			text-align: justify;
+			margin-top: 25%;
+  			-webkit-text-stroke: 1px black;
+  			color:white;
+		}
+		#puntos{
+			width: 170px;
+            height: 50px;
+            position: absolute;
+            margin:5px;
+            top:70%;
+            left:1100px;
+            border-bottom:2px solid white;
+		}
+		#puntos h3{
+			font-family:Crash;
+			font-size: 40px;
+			text-align: justify;
+			margin-top: 1%;
+  			-webkit-text-stroke: 1px black;
+  			color:white;
+		}
+		#puntos p{
+			font-family:Crash;
+			font-size: 40px;
+			text-align: center;
+			margin-top: -10%;
+  			-webkit-text-stroke: 1px black;
+  			color:white;
+		}
+		#resultado{
+			width: 170px;
+            height: 50px;
+            position: absolute;
+            margin:1px;
+            top:80%;
+            left:1100px;
+            border-bottom:2px solid white;
+            font-family:Crash;
+            font-size: 40px;
+			text-align: center;
+			margin-top: -1.9%;
+			color:white;
+			-webkit-text-stroke: 1px black;
+		}

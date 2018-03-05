@@ -1,0 +1,70 @@
+@font-face {
+		  font-family: Crash;
+		  src: url(../crash-a-like.ttf);
+		  color:white;
+		}
+#principal #contenedor{
+	position:relative;
+	width: 850px;
+	height: 500px;
+	background-color: black;
+	margin-top:-40%;
+	margin-left: 2%;
+}
+#contenedor #cred1{
+	float:left;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+}
+#cred1 img{
+	width: 100%;
+	height: 100%;
+}
+#contenedor #cred2{
+	float:left;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	margin-left: 52.91%;
+}
+#cred2 img{
+	width: 100%;
+	height: 100%;
+}
+#contenedor #cred3{
+	float:left;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	margin-top: 11%;
+}
+#cred3 img{
+	width: 100%;
+	height: 100%;
+}
+
+#contenedor #credTexto{
+	float:left;
+	width: 350px;
+	height: 200px;
+	margin-top: -11%;
+	margin-left: 10%;
+	color:white;
+	font-family: Crash;
+	font-size: 40px;
+	text-align: center;
+}
+
+#contenedor #cred4{
+	float:left;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	margin-top: -1%;
+	margin-left: 52.5%;
+}
+#cred4 img{
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,4 @@
+Empezar por el Principal , que hace de índice, el juego cuenta con una
+Pantalla de inicio y una pantalla final de créditos.
+
+Autor:Ivan Hernando Ortega
